@@ -2,7 +2,7 @@
 List of fullstack notes: HTML, CSS, JS, JS FRAMEWORKS, NODE.JS ... for your own reference.
 
 ## Table of contents
-* [Javascript](## JAVASCRIPT METHODS)
+* [Javascript](## Javascript)
 * [GitHub](## GitHub)
 * [SonarQube](##SonarQube)   
 * [Markdown](##Markdown)
@@ -45,11 +45,22 @@ console.log(multiply(5));
 
 ```
 
-
 ## GitHub
 ### Deploy simple index.html on Github  
 * Open repository.
 * Create new branch called 'gh-pages'.
-* Settings / GitHub Pages / click on 'Check it out here!'.
+* Go Settings => Go GitHub Pages section => click on 'Check it out here!'.
 
+## SonarQube
+### Install a local instance on Windows:
+* Download and install [sonarqube](https://www.sonarqube.org/)   
+* Go to sonarqube-x.x.x.xxxxx\bin\windows-x86-64 => Run StartSonar.bat    
+  On other operating systems, as a non-root user execute:   
+  /opt/sonarqube/bin/[OS]/sonar.sh console
+* Open browser and go to url [http://localhost:9000](http://localhost:9000)   
+### Analyzing a Project
+* Click the Create new project button.
+* Give your project a Project key and a Display name and click the Set Up button.
+* Under Provide a token, select Generate a token. Give your token a name, click the Generate button, and click Continue.
+* Select your project's main language under Run analysis on your project, and follow the instructions to analyze your project. Here you'll download and execute a Scanner on your code
 
