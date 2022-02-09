@@ -2,16 +2,15 @@
 List of fullstack notes: HTML, CSS, JS, JS FRAMEWORKS, NODE.JS ... for your own reference.
 
 ## Table of contents
-* [Javascript](## Javascript)
-* [GitHub](## GitHub)
-* [SonarQube](##SonarQube)
-* [Search operators](## Search operators)  
-* [Tips](## Tips) 
-* [Markdown](##Markdown)
+* [Javascript](#Javascript)
+* [GitHub](#github)
+* [SonarQube](#sonarQube)
+* [Search operators](#search-operators)  
+* [Tips](#tips) 
+* [Markdown](#markdown)
 ## Javascript
 ### Template Literals
 ```
-
 const showName = (name) => {
   console.log(`My name is ${name}`)
 }
@@ -22,7 +21,6 @@ console.log(showName(John));
 ```
 ### Default Parameters
 ```
-
 function multiply(a, b = 1) {
   return a * b;
 }
@@ -46,7 +44,6 @@ console.log(multiply(5));
  // expected output: Doe
 
 ```
-
 ## GitHub
 ### Deploy simple index.html on Github  
 * Open repository.
