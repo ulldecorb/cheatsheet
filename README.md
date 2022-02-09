@@ -71,6 +71,25 @@ console.log(multiply(5));
 *  P.E: C:\sonar-scanner-4.6.2.2472-windows\bin
 *  Click 'Aceptar'
 
+## Search operators
+Browser's search search like google also has operators that can be usefull to improve your development search.   
+Only apply them on input text.
+* Operator for website
+```site:github.com```
+* Operator for date  ```before:YYYY-MM-DD``` ```after:YYYY-MM-DD```
+* Operator for exact match ```"John Doe"```
+* Operator OR ```dogs OR cats```
+* Operator AND ```dogs AND cats```
+* Operator for price € $ ```keyboard $ 300```  ````keyboard € 300```
+* Operator for dictionary ````define:dog``` 
+* Operator for filetype  ```CV filetype:pdf```  ```cv ext:pdf```
+* Operator for web title ```intitle:react```  ```allintitle:react jest```
+* Operator for url ```inurl:react```  ```allinurl:react jest```
+* Operator for web body content  ```intext:react```  ```allintext: react jest```
+* Operator for proximity on web body content:   
+  ```react AROUND(4) jest```
+  Find react and jest word no more far away 4 words   
+
 ## Tips
 ### Captura de pantalla nativa de Windows 10 OS
 #### Impr Pant
