@@ -7,7 +7,7 @@ List of fullstack notes: HTML, CSS, JS, JS FRAMEWORKS, NODE.JS ... for your own 
 * [SonarQube](#sonarQube)
 * [Search operators](#search-operators)  
 * [Tips](#tips) 
-* [Markdown](#markdown)
+<!-- * [Markdown](#markdown) -->
 ## Javascript
 ### Template Literals
 ```
@@ -80,25 +80,26 @@ Only apply them on input text.
 * Operator for exact match ```"John Doe"```
 * Operator OR ```dogs OR cats```
 * Operator AND ```dogs AND cats```
-* Operator for price € $ ```keyboard $ 300```  ````keyboard € 300```
+* Operator for price € $ ```keyboard $ 300```  ```keyboard € 300```
 * Operator for dictionary ```define:dog``` 
 * Operator for filetype  ```CV filetype:pdf```  ```cv ext:pdf```
 * Operator for web title ```intitle:react```  ```allintitle:react jest```
 * Operator for url ```inurl:react```  ```allinurl:react jest```
 * Operator for web body content  ```intext:react```  ```allintext: react jest```
-* Operator for proximity on web body content:   
-  ```react AROUND(4) jest```
+* Operator for proximity on web body content: 
+  ```react AROUND(4) jest```   
   Find react and jest word no more far away 4 words   
+  There are much more operators to discover!
 
 ## Tips
 ### Captura de pantalla nativa de Windows 10 OS
-#### Impr Pant
+#### ```Impr Pant```
 Copia la pantalla al portapaeles.
-#### Alt + Impr Pant
+#### ```Alt + Impr Pant```
 Copia la ventana al portapapeles.
-#### Windows + Mayus + S
+#### ```Windows + Mayus + S```
 Copia una seleccion de la pantalla al portapapeles.   
 La selección se realiza con el ratón.
-#### Windows + G
+#### ```Windows + G```
 Abre centro de captura de imagen, tanto video como imagen fija.  
 Puede hacer video de pantalla o de ventana. Opcón de sonido.
