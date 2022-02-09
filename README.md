@@ -53,7 +53,7 @@ console.log(multiply(5));
 ## SonarQube
 ### Install a local instance on Windows:
 * Download and install [sonarqube](https://www.sonarqube.org/)   
-* Go to sonarqube-x.x.x.xxxxx\bin\windows-x86-64 => Run StartSonar.bat    
+* Go to sonarqube-x.x.x.xxxxx\bin\windows-x86-64 and run StartSonar.bat    
   On other operating systems, as a non-root user execute:   
   /opt/sonarqube/bin/[OS]/sonar.sh console
 * Open browser and go to url [http://localhost:9000](http://localhost:9000)   
@@ -81,7 +81,7 @@ Only apply them on input text.
 * Operator OR ```dogs OR cats```
 * Operator AND ```dogs AND cats```
 * Operator for price € $ ```keyboard $ 300```  ````keyboard € 300```
-* Operator for dictionary ````define:dog``` 
+* Operator for dictionary ```define:dog``` 
 * Operator for filetype  ```CV filetype:pdf```  ```cv ext:pdf```
 * Operator for web title ```intitle:react```  ```allintitle:react jest```
 * Operator for url ```inurl:react```  ```allinurl:react jest```
