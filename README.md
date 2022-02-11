@@ -3,8 +3,7 @@ List of fullstack notes: HTML, CSS, JS, JS FRAMEWORKS, NODE.JS ... for your own 
 
 ## Table of contents
 * [Javascript](#Javascript)   
-
-    :--- [React](#react)
+- [React](#react)
 * [GitHub](#github)
 * [SonarQube](#sonarQube)
 * [Search operators](#search-operators)  
