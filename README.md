@@ -2,8 +2,8 @@
 List of fullstack notes: HTML, CSS, JS, JS FRAMEWORKS, NODE.JS ... for your own reference.
 
 ## Table of contents
-* [Javascript](#Javascript)
-** [React](#react)
+* [Javascript](#Javascript)   
+    [React](#react)
 * [GitHub](#github)
 * [SonarQube](#sonarQube)
 * [Search operators](#search-operators)  
