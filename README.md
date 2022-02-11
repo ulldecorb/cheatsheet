@@ -54,6 +54,15 @@ $ npx create-react-app my-app
 ```
 $ npx eslint --init
 ```
+If you work on Windows OS add this rules to eslintrc.js file:
+```
+rules: {
+    'comma-dangle': [2, 'never'],
+    'linebreak-style': 0,
+    'global-require': 0,
+    'eslint linebreak-style': [0, 'error', 'windows']
+  }
+```
 ```
 $ npm i -S prop-types
 $ npm i -S react-router
@@ -67,11 +76,11 @@ $ npm i react-redux
 $ npm i redux-thunk
 $ npm i axios
 ```
-Extends test coverage:
-Go to package.json and edit test script. 
-'''
+To extend test coverage go to package.json file and edit test script:   
+```
 "test" :  "react-scripts test --watchAll --collect-coverage"
-'''
+```
+
 
 ## GitHub
 ### Deploy simple index.html on Github  
