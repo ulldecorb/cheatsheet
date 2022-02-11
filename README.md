@@ -3,6 +3,7 @@ List of fullstack notes: HTML, CSS, JS, JS FRAMEWORKS, NODE.JS ... for your own 
 
 ## Table of contents
 * [Javascript](#Javascript)
+** [React](#react)
 * [GitHub](#github)
 * [SonarQube](#sonarQube)
 * [Search operators](#search-operators)  
@@ -45,6 +46,33 @@ console.log(multiply(5));
  // expected output: Doe
 
 ```
+## React
+Install:
+```
+$ npx create-react-app my-app
+```
+```
+$ npx eslint --init
+```
+```
+$ npm i -S prop-types
+$ npm i -S react-router
+$ npm i -S react-router-dom
+```
+```
+$ npm i redux
+$ npm i react-redux
+```
+```
+$ npm i redux-thunk
+$ npm i axios
+```
+Extends test coverage:
+Go to package.json and edit test script. 
+'''
+"test" :  "react-scripts test --watchAll --collect-coverage"
+'''
+
 ## GitHub
 ### Deploy simple index.html on Github  
 * Open repository.
