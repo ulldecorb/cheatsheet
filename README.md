@@ -80,7 +80,17 @@ To extend test coverage go to package.json file and edit test script:
 ```
 "test" :  "react-scripts test --watchAll --collect-coverage"
 ```
+uuid library - Automatic generator of Ids   
+```
+npm i uuid
+```
+```
+import {v4 as uuidv4} from 'uuid';
 
+let myuuid = uuidv4();
+
+console.out('Your UUID is: ' + myuuid);
+```
 
 ## GitHub
 ### Deploy simple index.html on Github  
