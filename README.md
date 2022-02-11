@@ -6,6 +6,7 @@ List of fullstack notes: HTML, CSS, JS, JS FRAMEWORKS, NODE.JS ... for your own 
 * [GitHub](#github)
 * [SonarQube](#sonarQube)
 * [Search operators](#search-operators)  
+* [Tailwind](#tailwind)
 * [Tips](#tips) 
 <!-- * [Markdown](#markdown) -->
 ## Javascript
@@ -90,6 +91,12 @@ Only apply them on input text.
   ```react AROUND(4) jest```   
   Find react and jest word no more far away 4 words   
   There are much more operators to discover!
+
+# Tailwind
+```
+npm install -D tailwindcss
+npx tailwindcss init
+```
 
 ## Tips
 ### Captura de pantalla nativa de Windows 10 OS
