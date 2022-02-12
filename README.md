@@ -7,7 +7,7 @@ List of fullstack notes: HTML, CSS, JS, JS FRAMEWORKS, NODE.JS ... for your own 
 * [GitHub](#github)
 * [SonarQube](#sonarQube)
 * [Search operators](#search-operators)  
-* [Tailwind](#tailwind)
+* [Tailwind](#tailwindcss)
 * [Tips](#tips) 
 <!-- * [Markdown](#markdown) -->
 ## Javascript
@@ -139,10 +139,45 @@ Only apply them on input text.
   Find react and jest word no more far away 4 words   
   There are much more operators to discover!
 
-# Tailwind
+# Tailwindcss
+1. Install Tailwind CSS
 ```
 npm install -D tailwindcss
 npx tailwindcss init
+```
+2. Configure your template paths:
+```
+module.exports = {
+  content: ["./src/**/*.{html,js}"],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+```
+3. Add the Tailwind directives to your CSS (p.e: input.css):
+```
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
+4. Start the Tailwind CLI build process:
+```
+npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
+```
+Where input.css refers to point 3. And output.css refers to the style file that links on index.html or component
+5. Start using Tailwind in your HTML
+```
+<html>
+<head>
+  <link href="/dist/output.css" rel="stylesheet">
+</head>
+<body>
+  <h1 class="text-3xl font-bold underline">
+    Hello world!
+  </h1>
+</body>
+</html>
 ```
 
 ## Tips
