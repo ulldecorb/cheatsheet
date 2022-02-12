@@ -165,8 +165,8 @@ module.exports = {
 ```
 npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
 ```
-Where input.css refers to point 3. And output.css refers to the style file that links on index.html or component
-5. Start using Tailwind in your HTML
+Where input.css refers to point 3. And output.css refers to the style file that links on index.html or component.   
+5. Start using Tailwind in your HTML:
 ```
 <html>
 <head>
