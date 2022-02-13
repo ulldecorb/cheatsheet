@@ -181,6 +181,10 @@ Where input.css refers to point 3. And output.css refers to the style file that 
 ```
 
 ## Tips
+### Create package.json in your project
+```
+npm init
+```
 ### Captura de pantalla nativa de Windows 10 OS
 #### ```Impr Pant```
 Copia la pantalla al portapaeles.
