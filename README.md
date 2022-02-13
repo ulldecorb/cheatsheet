@@ -139,7 +139,7 @@ Only apply them on input text.
   Find react and jest word no more far away 4 words   
   There are much more operators to discover!
 
-# Tailwindcss
+# [Tailwindcss](https://tailwindcss.com/docs/installation)
 1. Install Tailwind CSS
 ```
 npm install -D tailwindcss
