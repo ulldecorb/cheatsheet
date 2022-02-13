@@ -186,8 +186,8 @@ Where input.css refers to point 3. And output.css refers to the style file that 
 npm init
 ```
 ### [Specials Characters on HTML](https://ascii.cl/es/codigos-html.htm)
-< - &#60;
-> - &#62;
+< - \&#60;   
+&#62; - \&#62;
 
 ### Captura de pantalla nativa de Windows 10 OS
 #### ```Impr Pant```
