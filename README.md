@@ -5,11 +5,12 @@ List of fullstack notes: HTML, CSS, JS, JS FRAMEWORKS, NODE.JS ... for your own 
 * [Javascript](#Javascript)   
 * [React](#react)
 * [GitHub](#github)
+  * [Deploy simple index.html on Github](#deploy-simple-index.html-on-Github)
+  * [Markdown](https://github.com/ulldecorb/markdown)
 * [SonarQube](#sonarQube)
 * [Search operators](#search-operators)  
 * [Tailwind](#tailwindcss)
 * [Tips](#tips) 
-<!-- * [Markdown](#markdown) -->
 ## Javascript
 ### Template Literals
 ```
