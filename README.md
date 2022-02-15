@@ -5,6 +5,7 @@ List of fullstack notes: HTML, CSS, JS, JS FRAMEWORKS, NODE.JS ... for your own 
 * [Javascript](#Javascript)   
  * [Methods](#methods)
   * [Number methods](#number-methods)
+ * [Console](#console)
 * [React](#react)
 * [GitHub](#github)
   * [Deploy simple index.html on Github](#deploy-simple-index.html-on-Github)
@@ -106,6 +107,13 @@ const arr = [ 1, 54, 69, 34, 99 ]
 Math.max(...arr) // => 99
 
 Math.min(...arr) // => 1
+```
+### Console
+```javascript
+console.table()
+```
+```javascript
+console.out()
 ```
 
 ## GitHub
