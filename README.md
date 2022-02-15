@@ -3,6 +3,8 @@ List of fullstack notes: HTML, CSS, JS, JS FRAMEWORKS, NODE.JS ... for your own 
 
 ## Table of contents
 * [Javascript](#Javascript)   
+ * [Methods](#methods)
+  * [Number methods](#number-methods)
 * [React](#react)
 * [GitHub](#github)
   * [Deploy simple index.html on Github](#deploy-simple-index.html-on-Github)
@@ -91,6 +93,19 @@ import {v4 as uuidv4} from 'uuid';
 let myuuid = uuidv4();
 
 console.out('Your UUID is: ' + myuuid);
+```
+### Methods
+#### Number methods
+> Math.min()   
+Math.min()    
+
+To get the maximum and minimum element in arrays:
+```javascript
+const arr = [ 1, 54, 69, 34, 99 ]
+
+Math.max(...arr) // => 99
+
+Math.min(...arr) // => 1
 ```
 
 ## GitHub
