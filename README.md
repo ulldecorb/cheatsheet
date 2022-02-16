@@ -5,7 +5,8 @@ List of fullstack notes: HTML, CSS, JS, JS FRAMEWORKS, NODE.JS ... for your own 
 * [Javascript](#Javascript)   
  * [Methods](#methods)
   * [Number methods](#number-methods)
- * [Console](#console)
+ * [Async functions](#async-functions)
+* [Console](#console)
 * [React](#react)
 * [GitHub](#github)
   * [Deploy simple index.html on Github](#deploy-simple-index.html-on-Github)
@@ -49,6 +50,54 @@ console.log(multiply(5));
  console.log(surname);
  // expected output: Doe
 
+```
+### Async Functions
+>Constants:
+```javascript
+const datos = [{
+  id: 1,
+  title: 'Is',
+  year: 1980
+},{
+  id: 2,
+  title: 'Your',
+  year: 1990
+  
+},{
+  id: 2,
+  title: 'Job',
+  year: 2000
+}]
+```
+>Promise
+```javascript
+const getDatos = () => {
+    return new Promise((resolve, reject) => {
+    if (datos.length === 0) {
+     reject(new Error('No existen datos'));
+    }
+    setTimeout(() => {
+      resolve(datos);
+    }, 1000);
+  });
+}
+```
+>then
+```javascript
+getDatos().then((datos) => console.log(datos));
+```
+>async / await
+```javascript     
+async function fetchingData () {
+ try {
+ const datosFetched = await getDatos();
+ console.log(datosFetched);
+ } catch (err) {
+ console.log(err.message)
+ }
+}
+  
+fetchingData();
 ```
 ## React
 Install:
