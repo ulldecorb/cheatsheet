@@ -279,8 +279,8 @@ Puede hacer video de pantalla o de ventana. Opcón de sonido.
 ### Online editors
 Code editors
 [JS Bin]((https://jsbin.com/?html,output)   
-[Codepen](https://codepen.io/pen/)
-Visual editors
-[Excalidraw](https://excalidraw.com/)
-[Figma](https://www.figma.com/)
-[Photopea](https://www.photopea.com/)
+[Codepen](https://codepen.io/pen/)   
+Visual editors   
+[Excalidraw](https://excalidraw.com/)   
+[Figma](https://www.figma.com/)   
+[Photopea](https://www.photopea.com/)   
