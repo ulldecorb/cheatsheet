@@ -277,7 +277,7 @@ Puede hacer video de pantalla o de ventana. Opcón de sonido.
 
 ## Tools
 ### Online editors
-Code editors
+Code editors   
 [JS Bin]((https://jsbin.com/?html,output)   
 [Codepen](https://codepen.io/pen/)   
 Visual editors   
