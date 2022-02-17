@@ -15,6 +15,7 @@ List of fullstack notes: HTML, CSS, JS, JS FRAMEWORKS, NODE.JS ... for your own 
 * [Search operators](#search-operators)  
 * [Tailwind](#tailwindcss)
 * [Tips](#tips) 
+* [Tools](#tools)
 ## Javascript
 ### Template Literals
 ```
@@ -273,3 +274,13 @@ La selección se realiza con el ratón.
 #### ```Windows + G```
 Abre centro de captura de imagen, tanto video como imagen fija.  
 Puede hacer video de pantalla o de ventana. Opcón de sonido.
+
+## Tools
+### Online editors
+Code editors
+[JS Bin]((https://jsbin.com/?html,output)   
+[Codepen](https://codepen.io/pen/)
+Visual editors
+[Excalidraw](https://excalidraw.com/)
+[Figma](https://www.figma.com/)
+[Photopea](https://www.photopea.com/)
