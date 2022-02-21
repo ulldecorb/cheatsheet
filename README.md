@@ -8,6 +8,7 @@ List of fullstack notes: HTML, CSS, JS, JS FRAMEWORKS, NODE.JS ... for your own 
  * [Async functions](#async-functions)
 * [Console](#console)
 * [React](#react)
+ * [Get data from api rest](https://github.com/ulldecorb/Backend-cheat-sheet)
 * [GitHub](#github)
   * [Deploy simple index.html on Github](#deploy-simple-index.html-on-Github)
   * [Markdown](https://github.com/ulldecorb/markdown)
