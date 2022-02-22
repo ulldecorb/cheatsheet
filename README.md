@@ -10,8 +10,9 @@ List of fullstack notes: HTML, CSS, JS, JS FRAMEWORKS, NODE.JS ... for your own 
 * [React](#react)
  * [Get data from api rest](https://github.com/ulldecorb/Backend-cheat-sheet)
 * [GitHub](#github)
-  * [Deploy simple index.html on Github](#deploy-simple-index.html-on-Github)
+  * [Deploy Github Project](#deploy-github-project)
   * [Markdown](https://github.com/ulldecorb/markdown)
+* [SASS](#sass)
 * [SonarQube](#sonarQube)
 * [Search operators](#search-operators)  
 * [Tailwind](#tailwindcss)   
@@ -169,10 +170,36 @@ console.out()
 ```
 
 ## GitHub
-### Deploy simple index.html on Github  
+### Deploy Github Project
 * Open repository.
 * Create new branch called 'gh-pages'.
 * Go Settings => Go GitHub Pages section => click on 'Check it out here!'.
+
+
+## SASS
+SASS \(Syntactically Awesome Style Sheets)   
+Allow:   
+* Attribute nesting.
+* Value variables.
+>_color.scss   
+
+```bash
+$colorVaribale : #FFFFFF;   
+$colorVaribale : #FFFFFF;   
+$colorVaribale : #FFFFFF;   
+```
+```bash
+@mixin flex ($direction, $justify, $align) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;    
+}
+```
+```bash
+@import './color'
+@import './mixin'
+```
 
 ## SonarQube
 ### Install a local instance on Windows:
