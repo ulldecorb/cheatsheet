@@ -8,6 +8,8 @@
 * [Operators](#operators)
 * [Conditionals](#conditionals)
 * [Loops](#loops)
+* [Collection](#collection)
+* [Functions](#functions)
 
 ## Types of Values
 ```dart
@@ -210,6 +212,86 @@ var object = {
 print(object['user'])
 
 var newObject = Map();
+```
+## Functions
+>void before declaration if expects that the function returns some value. 
+```dart
+dynamic sum ( var num1, var num2 ) => num1 + num2;
+
+dynamic square (var num) {
+    return num * num;
+}
+
+void showOutput (var msg) {
+    print(msg);
+}
+```
+>anonymous function
+```dart
+dynamic square ( var num ) => num * num;
+```
+>Apply null aware operator 
+```dart
+void main () {
+    print(sum(10));
+}
+
+dynamic sum ( var num1, { var num2 }) => num1 + (num2 ?? 0);
+
+dynamic sum ( var num1, { var num2=0}) => num1 + num2;
+```
+## Class
+```dart
+class Person {
+    String name;
+    int age;
+
+    Person(this.name, [this.age = 18]);
+
+    //named constructor
+
+    Person.guest() {
+        name = 'Maria';
+        age = 41;
+    }
+
+    void showOutput() {
+        print(name);
+        print(age)
+    }
+}
+
+void main() {
+    Person person1 = Person('John');
+    person1.showOutout();
+
+    var person2 = Person('Laia', 50);
+    person2.showOutout();
+
+    var person3 = Person.guest()
+    person3.showOutput();
+}
+```
+```dart
+
+```
+```dart
+
+```
+```dart
+
+```
+```dart
+
+```
+```dart
+
+```
+```dart
+
+```
+```dart
+
 ```
 ```dart
 
