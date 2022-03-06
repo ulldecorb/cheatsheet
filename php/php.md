@@ -67,13 +67,35 @@ echo ($x <=> $y); // returns -1 because $x is less than $y
 echo ($x <=> $y); // returns 0 because values are equal
 echo ($x <=> $y); // returns +1 because $x is greater than $y
 ```
+>Arrays    
+
+* Indexed arrays - Arrays with a numeric index   
+* Associative arrays - Arrays with named keys   
+* Multidimensional arrays 
 ```php
 <?php
 $cars = array("Volvo", "BMW", "Toyota");
 echo count($cars);
-?>
 
-$arrlength = count($cars);
+$arrlength = count($cars);  // 3
+
+?>
 ```
 ```php
+$age= array("Peter"=>"35", "Ben"=>"37", "Joe"=>"43")
+
+foreach($age as $x => $x_value) {
+  echo "Key=" . $x . ", Value=" . $x_value;
+  echo "<br>";
+}
 ```
+>SuperGlobals:
+$GLOBALS   
+$_SERVER   
+$_REQUEST   
+$_POST   
+$_GET   
+$_FILES   
+$_ENV   
+$_COOKIE   
+$_SESSION   
