@@ -6,6 +6,7 @@ List of fullstack notes: HTML, CSS, JS, JS FRAMEWORKS, NODE.JS ... for your own 
  * [Methods](#methods)
   * [Number methods](#number-methods)
  * [Async functions](#async-functions)
+    * [Free Api](#free-api)
 * [Console](#console)
 * [React](#react)
  * [Get data from api rest](https://github.com/ulldecorb/Backend-cheat-sheet)   
@@ -105,6 +106,9 @@ async function fetchingData () {
   
 fetchingData();
 ```
+### Free Api
+https://reqres.in/api/users    
+http://pokeapi.co/api/v2/pokemon
 ## React
 Install:
 ```
