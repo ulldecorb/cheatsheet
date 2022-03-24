@@ -2,11 +2,12 @@
 List of fullstack notes: HTML, CSS, JS, JS FRAMEWORKS, NODE.JS ... for your own reference.
 
 ## Table of contents
-* [Javascript](#Javascript)   
+* [Javascript](#javascript)   
  * [Methods](#methods)
   * [Number methods](#number-methods)
  * [Async functions](#async-functions)
-    * [Free Api](#free-api)
+    * [API Calls](#api-calls)
+    * [Free APIs](#free-apis)
 * [Console](#console)
 * [React](#react)
  * [Get data from api rest](https://github.com/ulldecorb/Backend-cheat-sheet)   
@@ -14,7 +15,7 @@ List of fullstack notes: HTML, CSS, JS, JS FRAMEWORKS, NODE.JS ... for your own 
   * [Deploy Github Project](#deploy-github-project)    
   * [Markdown](./markdown/markdown.md)
 * [SASS](#sass)
-* [SonarQube](#sonarQube)
+* [SonarQube](#sonarqube)
 * [Search operators](#search-operators)  
 * [PHP](./php/php.md)   
 * [Tailwind](#tailwindcss)   
@@ -106,9 +107,36 @@ async function fetchingData () {
   
 fetchingData();
 ```
-### Free Api
-https://reqres.in/api/users    
-http://pokeapi.co/api/v2/pokemon
+### API Calls
+> XTMLttpRequest
+```javascript
+const API_URL = "http::/jsonplaceholder.typicode.com";
+
+const xhr = new HTMLttpRequest();
+
+function onRequesthandler() {
+ if(this.readyState === 4 && this.status === 200) {
+  const data = JSON.parse(this.response);
+  console.log(data);
+ }
+}
+
+xhr.addEventListener( 'load', onRequestHandler ); 
+xhr.open( 'GET', `${API_URL}/users` );
+xhr.send();
+```
+> readyState status:   
+> 0 = UNSET, open method hasn't been called   
+> 1 = OPENED, open method has been called   
+> 2 = HEADERS_RECEIVED, send() method is being called   
+> 3 = LOADING, the response is being received   
+> 4 = DONE, operation is completed   
+
+### Free APIs
+https://reqres.in/api/users/    
+http://pokeapi.co/api/v2/pokemon/   
+http://jsonplaceholder.typicode.com/
+
 ## React
 Install:
 ```
