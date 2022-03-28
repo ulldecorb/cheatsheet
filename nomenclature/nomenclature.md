@@ -18,6 +18,7 @@ GNU : GNU's Not Unix
 GPU : Graphics Processing Unit   
 GUI : Graphical User Interface   
 HTML : Hypertext Markup Language   
+HTTPS : Hypertext Transfer Protocol Secure  
 IDE: Integrated Development Environment   
 IIFE : Inmediately-Invoked Function Expression   
 IT : Information Technology   
