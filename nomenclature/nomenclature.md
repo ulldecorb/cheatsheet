@@ -2,9 +2,11 @@
 Uncomplete IT words recopilation.
 
 ## Words:
+AMD: Asynchronous Module Definition   
 AJAX : Asynchronous JavaScript And XML   
 API : Application Programming Interfaces   
 BEM : Block, Element, Modifier   
+CDN : Content Delivery Network    
 CLI : Command-line interface   
 CORS : Cross-Origin Resource Sharing   
 CPU : Central Processing Unit   
@@ -17,6 +19,7 @@ GPU : Graphics Processing Unit
 GUI : Graphical User Interface   
 HTML : Hypertext Markup Language   
 IDE: Integrated Development Environment   
+IIFE : Inmediately-Invoked Function Expression   
 IT : Information Technology   
 JEST : Joint Entrance Screening Test   
 KISS : Keep It So Simple   
