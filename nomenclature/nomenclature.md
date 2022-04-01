@@ -35,6 +35,7 @@ SCM : Source Control Management
 SEO : Search Engine Optimization   
 SDK : Software Development Kit   
 SPA : Single-Page Application   
+SSH : Secure Shell   
 TDD : Test Driven Development   
 TUI : Text User Interface   
 VCS : Version Control System   
