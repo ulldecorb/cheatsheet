@@ -121,3 +121,4 @@ A-Frame has APIs that represents each piece of ECS:
 * [Super Says](https://github.com/supermedium/supersays/)
 * [A-Painter](https://github.com/aframevr/a-painter/)
 * [A-Blast](https://github.com/aframevr/a-blast/)
+* [Scene: ocean, rain, light, sky and sphere](https://glitch.com/edit/#!/mirror-abstracted-silkworm)
