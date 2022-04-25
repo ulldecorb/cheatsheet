@@ -63,9 +63,11 @@ A-Frame has APIs that represents each piece of ECS:
  * Entities are represented by the <a-entity> element and prototype.   
  * Components are represented by HTML attributes on <a-entity>‘s. Underneath, components are objects containing a schema, lifecycle handlers, and methods. Components are registered via the AFRAME.registerComponent (name, definition) API.   
  * Systems are represented by <a-scene>‘s HTML attributes. System are similar to components in definition. Systems are registered via the AFRAME.registerSystem (name, definition) API.   
-     
-![](https://cloud.githubusercontent.com/assets/674727/25463804/896c04c2-2aad-11e7-8015-2fc84118a01c.gif)   
-    
+  
+<p align="center">
+   <img align="center" src="https://cloud.githubusercontent.com/assets/674727/25463804/896c04c2-2aad-11e7-8015-2fc84118a01c.gif" width="565" height="353">
+</p>   
+  
 ## Javascript and DOM
 > Register component:   
 ```javascript
@@ -108,7 +110,34 @@ A-Frame has APIs that represents each piece of ECS:
   }
 });  
 ```
+> [Adding an Entity with .appendChild()](https://aframe.io/docs/1.3.0/introduction/javascript-events-dom-apis.html#adding-an-entity-with-appendchild)    
+```javascript
+var sceneEl = document.querySelector('a-scene');
 
+AFRAME.registerComponent('do-something-once-loaded', {
+  init: function () {
+    // This will be called after the entity has properly attached and loaded.
+    console.log('I am ready!');
+  }
+});
+
+var entityEl = document.createElement('a-entity');
+entityEl.setAttribute('do-something-once-loaded', '');
+sceneEl.appendChild(entityEl);
+```
+> Query selectors:   
+* .querySelector()   
+* .querySelectorAll()   
+* .getAttribute()   
+* .createElement()   
+* .appendChild()   
+* .removeChild()   
+* .setAttribute()   
+* .removeAttribute()   
+* .emit()   
+* .addEventListener()   
+* .removeEventListener()   
+  
 
 ## Links
 * [Glitch to quick Test](https://glitch.com/edit/#!/reliable-righteous-belt?path=index.html%3A6%3A8)
