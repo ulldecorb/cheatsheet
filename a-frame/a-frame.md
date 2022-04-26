@@ -5,7 +5,7 @@ A web framework for building 3D/AR/VR experiences.
 * [Concepts](#concepts)
 * [ECS](#entity-component-system)
 * [JS and DOM](#javascript-and-dom)
-* []()
+* [Three.js](#threejs)
 * []()
 * []()
 * []()
@@ -127,17 +127,85 @@ sceneEl.appendChild(entityEl);
 ```
 > Query selectors:   
 * .querySelector()   
-* .querySelectorAll()   
+* .querySelectorAll()  
+> Attributes:   
 * .getAttribute()   
 * .createElement()   
 * .appendChild()   
 * .removeChild()   
 * .setAttribute()   
 * .removeAttribute()   
+> Listeners:   
 * .emit()   
 * .addEventListener()   
-* .removeEventListener()   
+* .removeEventListener()      
   
+## Three.js
+[Accessing the three.js Scene](https://aframe.io/docs/1.3.0/introduction/developing-with-threejs.html#accessing-the-three-js-scene)   
+  ```javascript
+  document.querySelector('a-scene').object3D;  // THREE.Scene
+  ```   
+  ```javascript
+  document.querySelector('a-entity').sceneEl.object3D;  // THREE.Scene
+  ```
+  ```javascript
+  AFRAME.registerComponent('foo', {
+    init: function () {
+      var scene = this.el.sceneEl.object3D;  // THREE.Scene
+    }
+  });
+  ```
+[Setting an Object3D on an Entity](https://aframe.io/docs/1.3.0/introduction/developing-with-threejs.html#setting-an-object3d-on-an-entity)   
+.setObject3D(name)   
+  ```javascript
+  AFRAME.registerComponent('pointlight', {
+  init: function () {
+    this.el.setObject3D('light', new THREE.PointLight());
+  }
+});
+  ```
+.getObject3D(name)   
+```javascript
+entityEl.getObject3D('light');
+  ```
+.removeObject3D(name)   
+  ```javascript
+  AFRAME.registerComponent('pointlight', {
+  init: function () {
+    this.el.setObject3D('light', new THREE.PointLight());
+  },
+
+  remove: function () {
+    // Remove Object3D.
+    this.el.removeObject3D('light');
+  }
+});
+  ```
+[Transforming Between Coordinate Spaces](https://aframe.io/docs/1.3.0/introduction/developing-with-threejs.html#transforming-between-coordinate-spaces)
+* .getWorldPosition (vector)   
+```javascript
+  var worldPosition = new THREE.Vector3();
+  entityEl.object3D.getWorldPosition(worldPosition);
+```
+* .getWorldQuaternion (quaternion)   
+```javascript
+  var worldQuaternion = new THREE.Quaternion();
+  entityEl.object3D.getWorldQuaternion(worldQuaternion);
+```
+* .localToWorld (vector)   
+* .getWorldDirection (vector)   
+* .getWorldQuaternion (quaternion)
+* .getWorldScale (vector)
+  
+[World to Local Transforms](https://aframe.io/docs/1.3.0/introduction/developing-with-threejs.html#world-to-local-transforms)   
+  To obtain a matrix that transforms from world to an object’s local space, get the inverse of the object’s world matrix.   
+```javascript
+var worldToLocal = new THREE.Matrix4().getInverse(object3D.matrixWorld)
+```
+  Then we can apply that worldToLocal matrix to anything we want to transform:   
+```javascript
+anotherObject3D.applyMatrix(worldToLocal);
+  ```
 
 ## Links
 * [Glitch to quick Test](https://glitch.com/edit/#!/reliable-righteous-belt?path=index.html%3A6%3A8)
