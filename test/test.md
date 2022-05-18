@@ -71,8 +71,8 @@ describe('component', () => {
     const mockHandler = jest.fn();
     
     const component = render(<Component props={ mockProps } />);
-    const button = component.getByTestId(button')    
-    component.getByText('This is a test); // This syntax run a test
+    const button = component.getByTestId('button')    
+    component.getByText('This is a test'); // This syntax run a test
     
     fireEvent.click(button);
     
