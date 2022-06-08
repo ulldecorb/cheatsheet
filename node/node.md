@@ -39,7 +39,9 @@ On package.json, replace 'node' to 'nodemon' on scripts.start:
     "start": "nodemon app.js"
 }
 ```
-### DEBUG
+### DEBUG   
+A tiny JavaScript debugging utility modelled after Node.js core's debugging technique.   
+Works in Node.js and web browsers.
 ```bash
 npm install debug
 ```
