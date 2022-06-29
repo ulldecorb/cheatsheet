@@ -31,6 +31,7 @@ OOP : Object Oriented Programming
 POO : Programación Orientada a Objetos   
 REPL : Read Eval Print Loop   
 SASS : Syntactically Awesome Style Sheets   
+Scaffolding: Folders structure   
 SCM : Source Control Management   
 SEO : Search Engine Optimization   
 SDK : Software Development Kit   
