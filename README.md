@@ -154,6 +154,12 @@ rules: {
   "eslint linebreak-style": [0, "error", "windows"]
   }
 ```
+If you want allow react on .js files add this rules to eslintrc.js file:
+```
+rules: {   
+ "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]   
+}   
+```
 ```
 $ npm i -S prop-types
 $ npm i -S react-router
