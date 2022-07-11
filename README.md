@@ -132,6 +132,31 @@ xhr.send();
 > 3 = LOADING, the response is being received   
 > 4 = DONE, operation is completed   
 
+### Fetch
+>GET fetch   
+```
+fetch('https://reqres.in/api/users')
+.then(res => res.json())
+ .then(data => console.log(data))
+ .cath(error => console.log('ERROR'))
+```
+>POST fetch   
+```
+fetch('https://reqres.in/api/users', {
+ method: 'POST',
+ headers: {
+  'Content-Type': 'application/json'
+ },
+ body: JSON.stringify({
+  name: 'User 1'
+ })
+}).then(res => {
+ return res.json()
+ })
+ .then(data => console.log(data))
+ .cath(error=> console.log('ERROR'))
+```
+
 ### Free APIs
 https://reqres.in/api/users/    
 http://pokeapi.co/api/v2/pokemon/   
