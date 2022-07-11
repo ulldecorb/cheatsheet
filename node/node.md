@@ -13,6 +13,8 @@
 + [Body Parser](#body-parser)   
 + [Cors](#cors)   
 
++ [inspirational-quotes](#inspirational-quotes)
+
 ## Install
 ```bash
 npm init -y
@@ -88,4 +90,17 @@ npm i cors
 const cors = require('cors');
 
 app.use(cors());
+```
+### Inspirational-Quotes
+```bash
+npm inspirational-quotes
+```
+```node.js
+const Quote = require('inspirational-quotes');
+
+console.log(Quote.getQuote());
+
+app.get("/", function(req, res) {
+  res.send(Quote.getQuote());
+});
 ```
