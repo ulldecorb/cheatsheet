@@ -2,6 +2,7 @@
 List of fullstack notes: HTML, CSS, JS, JS FRAMEWORKS, NODE.JS ... for your own reference.
 
 ## Table of contents
+* [CSS - media queries](#css)
 * [Javascript](#javascript)   
  * [Methods](#methods)
   * [Number methods](#number-methods)
