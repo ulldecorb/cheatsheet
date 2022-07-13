@@ -29,8 +29,13 @@ List of fullstack notes: HTML, CSS, JS, JS FRAMEWORKS, NODE.JS ... for your own 
 ```html
 <style>
 @media (max-width: 600px) {
+  body {
+    background-color: #00f;
+  }
+ 
+@media (orientation: landscape){
   .facet_sidebar {
-    display: none;
+    flex-direction: column;
   }
 }
 </style>
