@@ -22,7 +22,19 @@ List of fullstack notes: HTML, CSS, JS, JS FRAMEWORKS, NODE.JS ... for your own 
 * [typescrpt](./typescript/typescript.md)   
 * [Test](./test/test.md)   
 * [Tips](#tips) 
-* [Tools](#tools)
+* [Tools](#tools)   
+## CSS
+### MediaQuery
+```html
+<style>
+@media (max-width: 600px) {
+  .facet_sidebar {
+    display: none;
+  }
+}
+</style>
+```
+[Link to MDN about media queries](https://developer.mozilla.org/es/docs/Web/CSS/Media_Queries/Using_media_queries)
 ## Javascript
 ### Template Literals
 ```
