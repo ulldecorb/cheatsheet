@@ -1,5 +1,8 @@
 # Heroku - React - Node.js
 Deploy a react app with node on heroku.
+```
+heroku open```
+
 
 ```
 "scripts": {
@@ -13,4 +16,7 @@ Deploy a react app with node on heroku.
   "node": "your-node-version"
 }
 ```
+
+```
 git push heroku HEAD:master
+```
