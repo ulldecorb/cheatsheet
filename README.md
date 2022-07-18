@@ -40,6 +40,15 @@ List of fullstack notes: HTML, CSS, JS, JS FRAMEWORKS, NODE.JS ... for your own 
 }
 </style>
 ```
+### CSS reset
+Add on top of your css hierarchy to a more intuitive behaviour of margin and padding atributes.
+```html
+*,*::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+```
 [Link to MDN about media queries](https://developer.mozilla.org/es/docs/Web/CSS/Media_Queries/Using_media_queries)
 ## Javascript
 ### Template Literals
