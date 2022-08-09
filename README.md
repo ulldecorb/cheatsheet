@@ -262,6 +262,16 @@ console.out()
 ```
 
 ## GitHub
+### Clone github repository without git historial
+Add --depth with value 1:
+```bash
+gh repo clone ulldecorb/catalan-time --depth 1
+```
+To add git history to a repository anytime:
+```bash
+git pull --unshallow
+```
+
 ### Deploy Github Project
 * Open repository.
 * Create new branch called 'gh-pages'.
