@@ -263,7 +263,7 @@ console.out()
 
 ## GitHub
 ### Clone github repository without git historial
-Add --depth with value 1:
+Add ``` --depth ``` with value 1 on the CLI clone git repository command:
 ```bash
 gh repo clone ulldecorb/catalan-time --depth 1
 ```
