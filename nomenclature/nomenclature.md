@@ -11,9 +11,11 @@ CLI : Command-line interface
 CORS : Cross-Origin Resource Sharing   
 CPU : Central Processing Unit   
 CSS : Cascading Style Sheets   
+CRM: Customer Relationship Managment   
 DIE : Duplicate Is Evil   
 DOM : Document Object Model   
 DRY : Don't Repeat Yourself   
+ERP: Enterprise Resource Planning   
 GNU : GNU's Not Unix   
 GPU : Graphics Processing Unit   
 GUI : Graphical User Interface   
