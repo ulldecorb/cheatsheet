@@ -2,7 +2,11 @@
 List of fullstack notes: HTML, CSS, JS, JS FRAMEWORKS, NODE.JS ... for your own reference.
 
 ## Table of contents
-* [CSS - media queries](#css)
+* [CSS](#css)
+   * [Media Query](#mediaquery)
+   * [Initial Reset](#css-reset)
+   * [Flex](#flex)
+   * [Grid](#grid)
 * [Javascript](#javascript)   
  * [Methods](#methods)
   * [Number methods](#number-methods)
@@ -50,6 +54,13 @@ Add on top of your css hierarchy to a more intuitive behaviour of margin and pad
 }
 ```
 [Link to MDN about media queries](https://developer.mozilla.org/es/docs/Web/CSS/Media_Queries/Using_media_queries)
+### Flex
+[Flex cheatsheet](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+![](https://css-tricks.com/wp-content/uploads/2022/02/css-flexbox-poster.png)
+### Grid
+[Grid cheatsheet](https://css-tricks.com/snippets/css/complete-guide-grid/#top-of-site)
+![](https://css-tricks.com/wp-content/uploads/2022/02/css-grid-poster.png)
+
 ## Javascript
 ### Template Literals
 ```
