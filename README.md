@@ -203,10 +203,16 @@ http://pokeapi.co/api/v2/pokemon/
 http://jsonplaceholder.typicode.com/
 
 ## React
-Install:
+>Create React App      
+Javascript react app:
 ```
 $ npx create-react-app my-app
 ```
+[Typescript](https://create-react-app.dev/docs/adding-typescript/#installation) react app:
+```bash
+$ npx create-react-app my-app --template typescript
+```
+>Add Lintern
 ```
 $ npx eslint --init
 ```
