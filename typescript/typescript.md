@@ -6,6 +6,7 @@ Typescript cheat sheet
 * [Funtions]{#functions}
 * [Objects]{#objects}
 * [Types Liases]{#types-aliases}
+* [Sources]{#sources}
 
 ## Data Types
 ```javascript   
@@ -60,7 +61,8 @@ const laura: user = {
   name: 'Laura',
   age: 33,
 ```
-
+## Sources
+[typescript Cheatsheet]{https://github.com/typescript-cheatsheets/react}
 
 <!-- ## Data Types
 ```javascript
