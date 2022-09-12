@@ -1,12 +1,12 @@
 # typescript-cheat-sheet
 Typescript cheat sheet
 ## Table of Content
-* [Data Types]{#data-types}
-* [Arrays]{#arrays}
-* [Funtions]{#functions}
-* [Objects]{#objects}
-* [Types Liases]{#types-aliases}
-* [Sources]{#sources}
+* [Data Types](#data-types)
+* [Arrays](#arrays)
+* [Funtions](#functions)
+* [Objects](#objects)
+* [Types Liases](#types-aliases)
+* [Sources](#sources)
 
 ## Data Types
 ```javascript   
@@ -62,7 +62,7 @@ const laura: user = {
   age: 33,
 ```
 ## Sources
-[typescript Cheatsheet]{https://github.com/typescript-cheatsheets/react}
+[typescript Cheatsheet](https://github.com/typescript-cheatsheets/react)
 
 <!-- ## Data Types
 ```javascript
