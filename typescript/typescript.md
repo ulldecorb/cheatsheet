@@ -62,7 +62,7 @@ const laura: user = {
   age: 33,
 ```
 ## Sources
-[typescript Cheatsheet](https://github.com/typescript-cheatsheets/react)
+[Typescript Cheatsheet](https://github.com/typescript-cheatsheets/react)
 
 <!-- ## Data Types
 ```javascript
