@@ -2,8 +2,8 @@
 List of fullstack notes: HTML, CSS, JS, JS FRAMEWORKS, NODE.JS ... for your own reference.
 
 ## Table of contents
-* [CSS](https://github.com/ulldecorb/speed-run-cheatsheet/tree/main/css/css.md){:target="_blank" rel="noopener"}
-* [Javascript]([#javascript](https://github.com/ulldecorb/speed-run-cheatsheet/blob/main/javascript/javascript.md))   
+* [CSS](https://github.com/ulldecorb/speed-run-cheatsheet/tree/main/css/css.md)
+* [Javascript](https://github.com/ulldecorb/speed-run-cheatsheet/blob/main/javascript/javascript.md)   
 * [Console](#console)
 * [React](#react)
  * [Get data from api rest](https://github.com/ulldecorb/Backend-cheat-sheet)   
