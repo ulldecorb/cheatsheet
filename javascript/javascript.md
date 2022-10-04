@@ -7,8 +7,10 @@
   * [Rest Operator](#rest-operator)
 * [userAgent](#userAgent)
 * [Async functions](#async-functions)
+    * [Free APIs to code](#free-apis)
 * [DOM](#dom)
 * [BOM](#bom)
+* [Hot Tips](#hot-tips)
 ## Topics
 ### Template Literals
 ```
@@ -184,3 +186,15 @@ fetch('https://reqres.in/api/users', {
 https://reqres.in/api/users/    
 http://pokeapi.co/api/v2/pokemon/   
 http://jsonplaceholder.typicode.com/
+
+## DOM
+
+## BOM
+
+## Hot Tips
+### Different unique character
+```javascript
+const string = 'aabbcc';
+
+new Set(string).size // 3
+```
