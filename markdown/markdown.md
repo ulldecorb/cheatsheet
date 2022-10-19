@@ -23,6 +23,7 @@ Markdown style cheatsheet
    * [Escape specials characters](#escape-special-characters)
    * [Comments](#comments)
    * [VSC Markdown Preview](#vsc-markdown-preview)
+* [Document structure](#document-structure)
 * [Sources](#sources)
 
 ## Heading
@@ -175,7 +176,25 @@ Mac OS
 #### VSC Extension to markdown files preview:
 >[Auto-Open Markdown Preview](https://marketplace.visualstudio.com/items?itemName=hnw.vscode-auto-open-markdown-preview)   
 
-# Sources
+## Document structure
+Make sure the file always includes the following elements:
+
+* Titles and internal titles
+* Introduction - the project's aim
+* Technologies
+* Launch
+
+Consider also using additional elements such as: 
+
+* Table of contents
+* Illustrations
+* Scope of functionalities 
+* Examples of use
+* Project status 
+* Sources
+* Other information
+
+## Sources
 This cheat sheet are based on the excellent job found on the follow sites:
 - Zaire Hira's article [Markdown Cheat Sheet – How to Write in Markdown with Examples](https://www.freecodecamp.org/news/markdown-cheat-sheet/) on freeCodeCamp news.
 - [Markdownguide.org web](https://www.markdownguide.org/cheat-sheet/)
