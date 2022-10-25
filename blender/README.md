@@ -4,6 +4,7 @@
     * [Navigation](#navigation)
     * [Basics](#basics)
     * [Tools](#tools)
+    * [Textures](#textures)
 * [Fonts](#fonts)
 
 ## Shortcuts
@@ -28,26 +29,55 @@ Basic axis viewers
 > ctrl + number = opposite axis view   
 
 Select a single object => .   
-Select whole object => a   
+Select whole object => A   
+
+Hide Selected Object => H   
+Show hide objects => Alr + H   
+Hide no Selected Object => Mayus + H   
+
+Group Objects => Ctrl + J
+Ungroup Object => P => First option
+
+Select object by vertex => L
 
 Viewport
 > Select kind of window.  (Top / Left of each window)   
 Alternar modulos de viewport => Tab   
 
 ### Basics
-Add => Shift + a   
-Delete => > x   
-Scale => s   
-Rotation => r   
-Position => g   
+Add => Shift + A   
+Delete => > X   
+Scale => S   
+Rotation => R   
+Position => G   
 
 ## Tools
-Herramienta corte => Ctrl + r   
-Extrusion => e   
-Extrusion + escalar => e => s   
+Herramienta corte => Ctrl + R   
+Extrusion => E   
+Inset => I ( Extrusion + escalar => E => S )   
 
 Bevel => CTRL + B   
-Grid Fll  => f3 => Grid Fill
+Grid Fill  => F3 => Grid Fill
+To Sphere => F3 => To Sphere
+Doble tap g => ?
+
+Mirror => Propierties => Mirror
+Fusionar Mirror => click A inside Mirror modifier
+
+## Textures
+
+Open paralel window the Shader Editor viewport option.
+Press N to close redundant window.
+New 
+
+### Unwrapping
+Selección de bordes => 2   
+Confirmar selección => U => Mark seam
+Cut all borders
+U => Unwrap
+Go to UV EDITING on program main options
+<!--   -->
+
 
 ## Fonts
 German Coronel:
