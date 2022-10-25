@@ -3,6 +3,7 @@
 * [Shortcuts](#shortcuts)
     * [Navigation](#navigation)
     * [Basics](#basics)
+    * [Tools](#tools)
 * [Fonts](#fonts)
 
 ## Shortcuts
@@ -26,11 +27,12 @@ Basic axis viewers
 > 7 = z axis   
 > ctrl + number = opposite axis view   
 
-Select a single object
-> .
+Select a single object => .   
+Select whole object => a   
 
 Viewport
-> Select kind of window.  (Top / Left of each window)
+> Select kind of window.  (Top / Left of each window)   
+Alternar modulos de viewport => Tab   
 
 ### Basics
 Add => Shift + a   
@@ -38,6 +40,14 @@ Delete => > x
 Scale => s   
 Rotation => r   
 Position => g   
+
+## Tools
+Herramienta corte => Ctrl + r   
+Extrusion => e   
+Extrusion + escalar => e => s   
+
+Bevel => CTRL + B   
+Grid Fll  => f3 => Grid Fill
 
 ## Fonts
 German Coronel:
