@@ -1,14 +1,12 @@
 # Blender cheatsheet
 ## Table of content
-* [Shortcuts](#shortcuts)
     * [Navigation](#navigation)
     * [Basics](#basics)
     * [Tools](#tools)
     * [Textures](#textures)
-* [Fonts](#fonts)
+    * [Fonts](#fonts)
 
-## Shortcuts
-### Navigation
+## Navigation
 
 Zoom
 > Scroll   
@@ -31,6 +29,11 @@ Basic axis viewers
 Select a single object => .   
 Select whole object => A   
 
+Duplicate Object => Shift + D   
+
+Unir malla Objects => Ctrl + J   
+Separar malla objects => L ( Seleccionar objeto a separar ) => P => Seleccion
+
 Hide Selected Object => H   
 Show hide objects => Alr + H   
 Hide no Selected Object => Mayus + H   
@@ -44,9 +47,9 @@ Viewport
 > Select kind of window.  (Top / Left of each window)   
 Alternar modulos de viewport => Tab   
 
-### Basics
+## Basics
 Add => Shift + A   
-Delete => > X   
+Delete => X   
 Scale => S   
 Rotation => R   
 Position => G   
@@ -59,7 +62,9 @@ Inset => I ( Extrusion + escalar => E => S )
 Bevel => CTRL + B   
 Grid Fill  => F3 => Grid Fill
 To Sphere => F3 => To Sphere
-Doble tap g => ?
+Activates vertex slide => Doble tap g 
+
+Transformación => Origen al centro de masa
 
 Mirror => Propierties => Mirror
 Fusionar Mirror => click A inside Mirror modifier
