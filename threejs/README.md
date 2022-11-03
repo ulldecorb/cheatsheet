@@ -3,9 +3,11 @@
 * [Setting up](#setting-up)
 * [Topics](#topics)
 * [Camera](#camera)
+  * [Perspective Camera](#perspective-camera)
+  * [Othographic Camera](#orthografic-camera)
+  * [Orbit Controls](#orbit-controls)
 * [Geometry and Material](#geometry-and-material)
 * [Helpers](#helpers)
-  * [Orbit Controls](#orbit-controls)
   * [dat.gui](#dat.gui)
   * [Axes Helper](#axes-helper)
   * [Grid Helper](#grid-helper)
@@ -43,7 +45,7 @@ To avoid incorrect margin add style to head element on html:
 ```
 
 ## Topics
-To create a three.js scenario we need three things: Scene, camera and 
+To actually be able to display anything with three.js, we need three things: scene, camera and renderer, so that we can render the scene with camera.
 
 ## Camera
 ## Geometry and Material
