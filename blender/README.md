@@ -1,10 +1,10 @@
 # Blender cheatsheet
 ## Table of content
-    * [Navigation](#navigation)
-    * [Basics](#basics)
-    * [Tools](#tools)
-    * [Textures](#textures)
-    * [Fonts](#fonts)
+* [Navigation](#navigation)
+* [Basics](#basics)
+* [Tools](#tools)
+* [Textures](#textures)
+* [Fonts](#fonts)
 
 ## Navigation
 
