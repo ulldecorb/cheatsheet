@@ -102,6 +102,7 @@ const camera = new THREE.OrthographicCamera(
 ```
 
 ### Orbit Controls
+[VIDEO GUIDE 🎥](https://youtu.be/xJAfLdUgdc4?t=705)   
 ```bash
 import { OrbitControls } from 'three/examples/jsm/conrols/OrbitControls.js';
 
@@ -129,7 +130,6 @@ A few tools to help development environment.
 
 ### dat.gui
 The dat.gui provides a window where you can control any argument in the scene in a easy way.   
-[VIDEO GUIDE 🎥](https://youtu.be/xJAfLdUgdc4?t=705)   
    
 Install dat.gui:
 ```bash
