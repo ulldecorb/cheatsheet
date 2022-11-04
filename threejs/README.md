@@ -47,10 +47,10 @@ To avoid incorrect margin add style to head element on html:
 ```
 
 ## Topics
-To actually be able to display anything with three.js, we need three things: scene, camera and renderer, so that we can render the scene with camera. This can be useful for rendering 2D scenes and UI elements, amongst other things.
+To actually be able to display anything with three.js, we need three things: scene, camera and renderer, so that we can render the scene with camera.
 
 ## Camera
-Two kind of cameras are available: prespective and othographic. The prespective camera works like classic camera, display objects with perspective. The octographic camera avoid the perspective, so the objects displays ever with the same size.   
+Two kind of cameras are available: prespective and othographic. The prespective camera works like classic camera, display objects with perspective. The octographic camera avoid the perspective, so the objects displays ever with the same size. This can be useful for rendering 2D scenes and UI elements, amongst other things.   
 
 You can set the position of the camera by axes:
 ```bash
