@@ -190,9 +190,9 @@ http://jsonplaceholder.typicode.com/
 ## DOM
 
 ### Force render
-Property offset: offsetTop, offsetLeft, offsetWidth y offsetHeight.
-Property scroll: scrollTop, scrollLeft, scrollWidth y scrollHeight.
-Property client: clientTop, clientLeft, clientWidth y clientHeight.
+Property offset: offsetTop, offsetLeft, offsetWidth y offsetHeight.   
+Property scroll: scrollTop, scrollLeft, scrollWidth y scrollHeight.   
+Property client: clientTop, clientLeft, clientWidth y clientHeight.   
 
 ## BOM
 
