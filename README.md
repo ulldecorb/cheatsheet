@@ -19,6 +19,7 @@ List of fullstack notes: HTML, CSS, JS, JS FRAMEWORKS, NODE.JS ... for your own 
 * [Test](./test/test.md)   
 * [Tips](#tips) 
 * [Tools](#tools)   
+* [Windows](#windows) 
 
 ## React
 >Create React App      
@@ -253,3 +254,13 @@ Visual editors
 [Excalidraw](https://excalidraw.com/)   
 [Figma](https://www.figma.com/)   
 [Photopea](https://www.photopea.com/)   
+
+## Windows 
+### Host file redirect web name shortcut
+Go to file <code>c:Windows/System32/drivers/etc/host</code> and open on your favorite text editor.    
+Write a browser direction ( localhost, http...) and a name to refer that direction.   
+After safe the file, you can type the name on any browser on your system and will redirect to the direction associated.   
+Usefull for develop tests but quite confusing for any unconscientious teammate.
+```bash
+127.0.0.1   myweb.com
+```
