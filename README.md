@@ -1,4 +1,4 @@
-# Speed Run Junior Cheatsheet Reference
+# Ever Junior Cheat Sheet
 List of fullstack notes: HTML, CSS, JS, JS FRAMEWORKS, NODE.JS ... for your own reference.
 
 ## Table of contents
