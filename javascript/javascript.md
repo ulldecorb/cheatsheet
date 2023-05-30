@@ -203,3 +203,7 @@ const string = 'aabbcc';
 
 new Set(string).size // 3
 ```
+### E-mail Reg-exp
+```js
+  !/^[A-Z0-9._%+-]+@[A-Z0-9._]+\.[A-Z]{2,4}$/i.test(value.email)
+```
