@@ -2,7 +2,7 @@
 List of fullstack notes: HTML, CSS, JS, JS FRAMEWORKS, NODE.JS ... for your own reference.
 
 ## Table of contents
-* [CSS](https://github.com/ulldecorb/speed-run-cheatsheet/tree/main/css/css.md)
+* [CSS](https://github.com/ulldecorb/speed-run-cheatsheet/tree/main/css/README.md)
 * [Javascript](https://github.com/ulldecorb/speed-run-cheatsheet/blob/main/javascript/javascript.md)   
 * [Console](#console)
 * [React](#react)
