@@ -20,6 +20,7 @@ List of fullstack notes: HTML, CSS, JS, JS FRAMEWORKS, NODE.JS ... for your own 
 * [Tips](#tips) 
 * [Tools](#tools)   
 * [Windows](#windows) 
+* [Web of interest](#web-of-interest)
 
 ## React
 >Create React App      
@@ -264,3 +265,7 @@ Usefull for develop tests but quite confusing for any unconscientious teammate.
 ```bash
 127.0.0.1   myweb.com
 ```
+
+# Web of interest
+- [Can I use]()=> To known the global range of use and performance about a technology.
+- [30 Days of Python Tutorial](https://github.com/Asabeneh/30-Days-Of-Python)
