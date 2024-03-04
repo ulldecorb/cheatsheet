@@ -3,6 +3,7 @@
 ## Index
 * [MediaQuery](#mediaquery)
 * [CSS reset](#css-reset)
+* [Scroll bar](#scroll-bar)
 * [Box organization](#box-organization)
 	* [Flex](#flex)
 	* [Grid](#grid)
@@ -86,6 +87,24 @@ table {
 	border-spacing: 0;
 }
 ```
+
+## Scroll bar
+```css
+body::-webkit-scrollbar {
+  width: 1em;
+}
+ 
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+```
+🚀 [example from here](https://css-tricks.com/almanac/properties/s/scrollbar/)
+🚀 [expand scroll bar concepts](https://css-tricks.com/the-current-state-of-styling-scrollbars-in-css/)
 
 ## Box Organization
 ### Flex
