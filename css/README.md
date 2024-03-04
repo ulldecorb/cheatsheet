@@ -1,6 +1,14 @@
-## CSS
+# CSS
 
-### MediaQuery
+## Index
+* [MediaQuery](#mediaquery)
+* [CSS reset](#css-reset)
+* [Box organization](#box-organization)
+	* [Flex](#flex)
+	* [Grid](#grid)
+* [Style topic webs](#style-topic-webs)
+
+## MediaQuery
 ```html
 <style>
 @media (max-width: 600px) {
@@ -15,8 +23,11 @@
 }
 </style>
 ```
-### CSS reset
-Add on top of your css hierarchy to a more intuitive behaviour of margin and padding atributes.
+🚀 [MDN about media queries](https://developer.mozilla.org/es/docs/Web/CSS/Media_Queries/Using_media_queries)
+
+## CSS reset
+Add the follow code on top of your css hierarchy to a more intuitive behaviour of margin and padding atributes.   
+Short way code:
 ```html
 *,*::before, *::after {
   margin: 0;
@@ -24,6 +35,7 @@ Add on top of your css hierarchy to a more intuitive behaviour of margin and pad
   box-sizing: border-box;
 }
 ```   
+Extense way code:
 ```html
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -74,7 +86,8 @@ table {
 	border-spacing: 0;
 }
 ```
-[Link to MDN about media queries](https://developer.mozilla.org/es/docs/Web/CSS/Media_Queries/Using_media_queries)
+
+## Box Organization
 ### Flex
 [Flex cheatsheet](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 ![](https://css-tricks.com/wp-content/uploads/2022/02/css-flexbox-poster.png)
@@ -82,5 +95,6 @@ table {
 [Grid cheatsheet](https://css-tricks.com/snippets/css/complete-guide-grid/#top-of-site)
 ![](https://css-tricks.com/wp-content/uploads/2022/02/css-grid-poster.png)
 
-### Style topic webs
-[iconarchive](https://iconarchive.com/)
+## Style topic webs
+* [iconarchive](https://iconarchive.com/)
+* [CSS Battle](https://cssbattle.dev/)
