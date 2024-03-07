@@ -7,6 +7,7 @@
 * [Box organization](#box-organization)
 	* [Flex](#flex)
 	* [Grid](#grid)
+* [Glitch UX](#glitch-ux)
 * [Style topic webs](#style-topic-webs)
 
 ## MediaQuery
@@ -103,7 +104,7 @@ body::-webkit-scrollbar-thumb {
   outline: 1px solid slategrey;
 }
 ```
-🚀 [example from here](https://css-tricks.com/almanac/properties/s/scrollbar/)
+🚀 [example from here](https://css-tricks.com/almanac/properties/s/scrollbar/)  
 🚀 [expand scroll bar concepts](https://css-tricks.com/the-current-state-of-styling-scrollbars-in-css/)
 
 ## Box Organization
@@ -113,6 +114,17 @@ body::-webkit-scrollbar-thumb {
 ### Grid
 [Grid cheatsheet](https://css-tricks.com/snippets/css/complete-guide-grid/#top-of-site)
 ![](https://css-tricks.com/wp-content/uploads/2022/02/css-grid-poster.png)
+
+## Glitch UX
+### Hover display none
+You can use hover display none to randomize the UX of a box.  
+As soon as set 'display: none' when hover above a rendered html element, the element renders off, but inmediately is rerendered because a 'non rendered' element can't be hovered de per se.   
+As result, a strange render/no render behaviour becomes when the cursor moves above the element. 
+```css
+div:hover {
+	display:none;
+}
+```
 
 ## Style topic webs
 * [iconarchive](https://iconarchive.com/)
