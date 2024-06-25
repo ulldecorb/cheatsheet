@@ -4,6 +4,7 @@
 * [MediaQuery](#mediaquery)
 * [CSS reset](#css-reset)
 * [Scroll bar](#scroll-bar)
+* [Scroll-timeline](#scroll-timeline)
 * [Box organization](#box-organization)
 	* [Flex](#flex)
 	* [Grid](#grid)
@@ -106,6 +107,17 @@ body::-webkit-scrollbar-thumb {
 ```
 🚀 [example from here](https://css-tricks.com/almanac/properties/s/scrollbar/)  
 🚀 [expand scroll bar concepts](https://css-tricks.com/the-current-state-of-styling-scrollbars-in-css/)
+
+# Scroll-timeline
+```css
+animation-timeline: view(x y);
+
+animation-range-start: contain;
+animation-range-end: contain;
+
+animation-range: start end;
+```
+
 
 ## Box Organization
 ### Flex
